@@ -8,19 +8,11 @@
 
 import UIKit
 import FirebaseCore
-//import FirebaseDatabase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    //        var ref: DatabaseReference!
-    //        ref = Database.database().reference()
-    //        ref.child("tasks").child("-KgT6osvXyEyUl8RZbZw").observeSingleEvent(of: .value) { (snapshot) in
-    //            print("got something")
-    //            let value = snapshot.value as? NSDictionary
-    //            print(value)
-    //        }
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {

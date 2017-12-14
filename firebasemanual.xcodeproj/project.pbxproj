@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8407797B1FE2653C00470C30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8407797A1FE2651900470C30 /* GoogleService-Info.plist */; };
+		8407797D1FE267D700470C30 /* FruitsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407797C1FE267D700470C30 /* FruitsViewModel.swift */; };
+		8407797F1FE268C900470C30 /* FruitCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8407797E1FE268C900470C30 /* FruitCell.swift */; };
 		8489D4061FD11A2700FC18B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489D4051FD11A2700FC18B0 /* AppDelegate.swift */; };
 		8489D4081FD11A2700FC18B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489D4071FD11A2700FC18B0 /* ViewController.swift */; };
 		8489D40B1FD11A2700FC18B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8489D4091FD11A2700FC18B0 /* Main.storyboard */; };
@@ -21,7 +24,6 @@
 		849187F31FD11FD4004B231B /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849187EC1FD11FD3004B231B /* GoogleToolboxForMac.framework */; };
 		849188071FD1244D004B231B /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849188051FD1244C004B231B /* FirebaseDatabase.framework */; };
 		849188081FD1244D004B231B /* leveldb-library.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 849188061FD1244C004B231B /* leveldb-library.framework */; };
-		8491880B1FD12B24004B231B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8491880A1FD12B0B004B231B /* GoogleService-Info.plist */; };
 		8491880D1FD12FDD004B231B /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8491880C1FD12FDD004B231B /* DataService.swift */; };
 		849188111FD18658004B231B /* Differ.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8491880E1FD18657004B231B /* Differ.framework */; };
 		849188121FD18658004B231B /* Bond.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8491880F1FD18658004B231B /* Bond.framework */; };
@@ -29,6 +31,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		840779781FE264A600470C30 /* Firebase */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Firebase; sourceTree = "<group>"; };
+		8407797A1FE2651900470C30 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8407797C1FE267D700470C30 /* FruitsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsViewModel.swift; sourceTree = "<group>"; };
+		8407797E1FE268C900470C30 /* FruitCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitCell.swift; sourceTree = "<group>"; };
 		8489D4021FD11A2700FC18B0 /* firebasemanual.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = firebasemanual.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8489D4051FD11A2700FC18B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8489D4071FD11A2700FC18B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,7 +57,6 @@
 		849188031FD12376004B231B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		849188051FD1244C004B231B /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FirebaseDatabase.framework; path = Firebase/Database/FirebaseDatabase.framework; sourceTree = "<group>"; };
 		849188061FD1244C004B231B /* leveldb-library.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "leveldb-library.framework"; path = "Firebase/Database/leveldb-library.framework"; sourceTree = "<group>"; };
-		8491880A1FD12B0B004B231B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		8491880C1FD12FDD004B231B /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		8491880E1FD18657004B231B /* Differ.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Differ.framework; path = Carthage/Build/iOS/Differ.framework; sourceTree = "<group>"; };
 		8491880F1FD18658004B231B /* Bond.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bond.framework; path = Carthage/Build/iOS/Bond.framework; sourceTree = "<group>"; };
@@ -102,7 +107,7 @@
 		8489D4041FD11A2700FC18B0 /* firebasemanual */ = {
 			isa = PBXGroup;
 			children = (
-				8491880A1FD12B0B004B231B /* GoogleService-Info.plist */,
+				8407797A1FE2651900470C30 /* GoogleService-Info.plist */,
 				849187FF1FD122B4004B231B /* module.modulemap */,
 				849187FE1FD12288004B231B /* Firebase.h */,
 				8489D4051FD11A2700FC18B0 /* AppDelegate.swift */,
@@ -113,6 +118,8 @@
 				8489D4111FD11A2700FC18B0 /* Info.plist */,
 				849187F71FD12129004B231B /* firebasemanual-Bridging-Header.h */,
 				8491880C1FD12FDD004B231B /* DataService.swift */,
+				8407797C1FE267D700470C30 /* FruitsViewModel.swift */,
+				8407797E1FE268C900470C30 /* FruitCell.swift */,
 			);
 			path = firebasemanual;
 			sourceTree = "<group>";
@@ -120,6 +127,7 @@
 		849187E51FD11FD2004B231B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				840779781FE264A600470C30 /* Firebase */,
 				8491880F1FD18658004B231B /* Bond.framework */,
 				8491880E1FD18657004B231B /* Differ.framework */,
 				849188101FD18658004B231B /* ReactiveKit.framework */,
@@ -200,7 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8489D4101FD11A2700FC18B0 /* LaunchScreen.storyboard in Resources */,
-				8491880B1FD12B24004B231B /* GoogleService-Info.plist in Resources */,
+				8407797B1FE2653C00470C30 /* GoogleService-Info.plist in Resources */,
 				8489D40D1FD11A2700FC18B0 /* Assets.xcassets in Resources */,
 				8489D40B1FD11A2700FC18B0 /* Main.storyboard in Resources */,
 			);
@@ -233,6 +241,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8491880D1FD12FDD004B231B /* DataService.swift in Sources */,
+				8407797F1FE268C900470C30 /* FruitCell.swift in Sources */,
+				8407797D1FE267D700470C30 /* FruitsViewModel.swift in Sources */,
 				8489D4081FD11A2700FC18B0 /* ViewController.swift in Sources */,
 				8489D4061FD11A2700FC18B0 /* AppDelegate.swift in Sources */,
 			);
